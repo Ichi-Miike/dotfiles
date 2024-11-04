@@ -12,24 +12,23 @@
 # I put the file alacritty.toml in $HOME/.config/alacritty. However it can be kept anywhere among the places mentioned in
 # https://github.com/alacritty/alacritty/tree/master#configuration
 
+[general]
+working_directory = "c:/source/repos"
+live_config_reload = true
+
+
 [terminal]
 shell.program = "nu"
 
 
-
 [window]
-
 opacity = 0.75
 
-#dimensions = {columns = 240, rows = 80 }
-#padding - { x = 10, y = 10 }
-
-dimensions.columns = 240
-dimensions.lines = 60
-
-padding.x = 10
-padding.y = 10
-
+position = { x = 100, y = 75 }
+#dimensions = { columns = 180, lines = 50 }
+dimensions = { columns = 240, lines = 60 }
+padding = { x = 10, y = 10 }
+blur = true
 decorations = "Full"
 decorations_theme_variant = "Dark"
 
