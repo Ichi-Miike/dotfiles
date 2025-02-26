@@ -1,0 +1,1337 @@
+ls -l 
+exit
+brew install --cask wezterm
+exit
+ls -l
+cd .config/wezterm/
+nvim wezterm.lua
+open wezterm.lua
+exit
+cd .config/
+cd wezterm/
+nvim wezterm.lua
+nano wezterm.lua
+exit
+cd .config/wezterm/
+nano wezterm.lua
+exit
+window:get-dimensions
+window:get-dimensions()
+/bin/zsh
+exit
+exit
+cd .config/wezterm/
+nano wezterm.lua
+exit
+cd .config/wezterm/
+nano wezterm.lua
+exit
+brew --help
+exit
+nvom
+nvim
+brew intall iterm2
+brew install --cask alacritty
+exit
+brew uninstall alactritty
+brew uninstall alacritty
+exit
+brew install --cask kitty
+exit
+nvim
+exit
+nvom
+exit
+brew install --cask terminator
+exit
+ls -l
+ls -las
+exit
+ls -l
+ls -la
+ps
+ps | order-by mem
+ps | sort-by mem
+ssh ichimiike@lv-426 -p 20
+ls -l
+pwdd
+pwd
+ls -l
+cd `Lightroom Saved Photos/`
+ls -l
+ls -l | sort-by size
+ls -l | where name =~ 0281
+ls -l | where name =~ "0281"
+nvim tmp.ps1
+exit
+clear
+ls -l
+clear
+nvim tmp.ps1
+brew install --cask alacritty
+exit
+cd \\thars-srv-dev01.tharstern.local\Builds\RC\Xero.Service
+cd //thars-srv-dev01.tharstern.local/Builds/RC/Xero.Service
+ls -l \\thars-srv-dev01.tharstern.local\Builds
+ls -l '\\thars-srv-dev01.tharstern.local\Builds'
+nvim tmp.ps1
+zsh
+exit
+nvim tmp.ps1
+zsh
+exit
+brew install --cask starship
+ls -l
+nvim
+exit
+nvim
+exit
+brew cask install alacritty
+exit
+brew cask install alacritty
+exit
+nvim
+exit
+nvim
+clear
+brew uninstall alacritty
+zsh
+exit
+brew --version
+ls -l
+nvom
+nvim
+exit
+zsh
+nvom
+nvim
+help: `nvim` is neither a Nushell built-in or a known external command
+sudo chsh -s /opt/homebrew/bin/nu
+exit
+nvim
+which brew
+$nu.env-path
+cd /opt/homebrew/bin/
+exit
+brew
+exit
+brew --version
+exit
+brew
+exit
+brew
+exit
+brew
+exirt
+exit
+exit
+brew
+nvim
+cd ~/.config/
+ls -l
+exit
+cd `~/Library/Application Support/nushell/`
+ls -l
+nvim env.nu
+exiit
+exi
+exit
+nvim
+brew install --cask starship
+brew install starship
+clear
+nvim
+nvim vapes.txt
+exir
+exit
+nvim tmp.ps1
+exit
+cd Downloads/
+ls - l
+ls -l
+ls -l | where name =~ *.nzb
+ls -l *.nzb
+rm *.nzb
+ls -l
+clear
+ssh ichimiike@lv-426 -p 20
+cd .config/
+ls -l
+$nu.env-path
+exit
+nvim
+ssh ichimiike@lv-426 -p 20
+brew install vlc
+exit
+exit
+nvim list.txt
+cd .con
+cd .config/
+ls -l
+nu env-path
+cd /etc
+ls -l
+nu.env-path
+$nu.env-path
+cd `~/Library/Application Support/nushell/`
+l -l
+la -l
+ls -l
+nvim config.nu
+exit
+ollama run llama3.2
+exit
+bash
+exit
+cd source/
+ls -l
+cd repos/
+ls -l
+cd API]
+cd PAI
+cd API
+ls -l
+git log
+git log --oneline --graph
+exit
+cd Downloads/
+ls -l
+clear
+ls -l
+ls -l | where name =~ nzb
+rm *.nzb
+ls -l
+cd wetransfer_tapping-vids-folders-1-2-and-3_2024-12-03_0517/
+ls -l
+cd /
+ls -l
+cd etc
+ls -l
+cd /
+ls -l
+cd opt
+ls -l
+exit
+nvim books.txt
+exit
+nvim list.txt
+exit
+nvim books.txt
+xeit
+exit
+nvim txt.txt
+exit
+brew version
+brew
+brew upgrade all
+brew upgrade --help
+brew upgrade 
+ls -l
+exit
+brew upgrade 
+exit
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+exit
+rustc
+echo -e ${PATH//:/\\n}
+echo -e $(PATH)
+cd etc
+cd /etc
+ls -l
+cd ~/.cargo/bin
+ls -l
+nvim paths
+sudo nvim paths
+exit
+exit
+rustc --version
+rustup
+cd ~
+ls -l
+cd Downloads/
+ls -l
+cd ~/.cargo
+ls -l
+cd bin
+ls -l
+cd rustc
+rustc
+./rustc
+rustc --version
+./rustc --version
+echo $path
+cd ..
+\exit
+exit
+rustc --version
+echo $path
+$path
+echo $PATH
+echo $env.PATH
+ls -l
+ls -la
+nvim .zshrc
+exit
+echo $env.PATH
+cat /etc/paths
+pwd
+echo $env.PATH
+exit
+echo $env.PATH
+cat /etc/paths
+echo $env.PATH
+ls -l
+nu.env-path
+nu env-path
+nu --help
+nu --env-config
+ls -l
+cd bin
+ls -l
+cd ..
+ls -la
+cd .config/
+ls -l
+$nu.env-path
+cd ..
+cd `Library/Application Support/nushell/`
+nvim env.nu
+$env.PATH = (<\n>  $env.PATH<\n>  | split row (char esep)<\n>  | append /usr/local/bin<\n>  | append ($env.CARGO_HOME | path join bin)<\n>  | append ($env.HOME | path join .local bin)<\n>  | uniq # filter so the paths are unique<\n>)
+echo $env.PATH
+echo $env.CARGO_HOME
+$env.PATH = (<\n>  $env.PATH<\n>  | split row (char esep)<\n>  | append /usr/local/bin<\n>  | append (/Users/matsmith/.cargo/bin | path join bin)<\n>  | append ($env.HOME | path join .local bin)<\n>  | uniq # filter so the paths are unique<\n>)
+cd ~/.cargo/bin
+pwd
+$env.PATH = (<\n>  $env.PATH<\n>  | split row (char esep)<\n>  | append /usr/local/bin<\n>  | append (/Users/matsmith/.cargo/bin | path join bin)<\n>  | append ($env.HOME | path join .local bin)<\n>  | uniq # filter so the paths are unique<\n>)
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/Users/matsmith/.cargo/bin')
+$env.PATH = (<\n>  $env.PATH<\n>  | split row (char esep)<\n>  | append /usr/local/bin<\n>  | append ($env.HOME | path join .local bin)<\n>  | uniq # filter so the paths are unique<\n>)
+echo $env.PATH
+cd ~
+rustc --version
+cd sourrce/
+cd source
+ls l
+ls -l
+mkir rust
+mkdir rust
+cd rust
+cargo new guessing_game
+cd guessing_game/
+code .
+cargo check
+clear
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+rustfmt
+cd src/
+rustfmt main.rs
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+clear
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo add rand
+cargo check
+cargo add rand
+cargo run
+cargo check
+rustc --explain E0308
+cargo check
+cargo run
+rustfmt main.rs
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+cargo run
+clerar
+clear
+cargo check
+cargo run
+eit
+exit
+cd source/rust/
+cd guessing_game/
+ls -l
+cargo run
+rustc --version
+echo $env.PATH
+exit
+cd source/rust/guessing_game/
+ls -l
+cargo run
+history
+echo $env.PATH
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/Users/matsmith/.cargo/bin')
+rustc --version
+pushd ~
+cd ~
+ls -l
+ls -la
+cd `Library/Application Support/nushell/`
+ls -l
+nvim config.nu
+nvim env.nu
+exit
+echo $env.PATH
+source
+nu source
+nu --help
+nu config reload
+source $nu.env-path
+echo $env.PATH
+nvim env.nu
+cd `Library/Application Support/nushell/`
+history
+nvim env.nu
+cat env.nu
+rustc --version
+source $nu.env-path
+rustc --version
+exit
+nvim env.nu
+exir
+exit
+rustc --version
+cd source/rust/guessing_game/
+cargo run
+ollama run llama3.2
+zsh
+exit
+brew update
+brew update all
+brew upgrade all
+exitt
+exit
+cd sourced
+cd source/rus
+cd source/rust
+cargo new advent_of_code
+cd advent_of_code/
+cd ..
+rm -rf advent_of_code/
+mkdir advent_of_code
+cd advent_of_code/
+cargo day_1
+cargo new day_1
+cd day_1/
+cargo check
+cargo run
+clear
+cargo run
+ls -l
+nvim test.txt
+cargo run
+clear
+cargo run
+clear
+cargo run
+cd ..
+cargo new day_2
+ls -l
+cd day_2
+code .
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+cear
+clear
+cargo run
+clear
+cargo run
+rustfmt src/main.rs
+cargo run
+clear
+cargo run
+clear
+cargo run
+rustfmt src/main.rs
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+rustfmt src/main.rs
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+ssh ichimiike@lv-426 -p 20
+clear
+ls -l
+cargo run 
+rustfmt src/main.rs
+cargo run 
+clear
+cargo run 
+clear
+cargo check
+clear
+cargo check
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+]
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cd ../..
+ls -l
+git clone https://github.com/rust-lang/rustlings.git
+cd rustlings/
+cargo install rustlings
+ls -l
+rustlings init
+open README.md
+rustup update
+rustlings init
+clear
+cd ../advent_of_code/
+ls -l
+git init
+git --help
+git remote add origin https://github.com/Ichi-Miike/advent_of_code_2024.git
+git branch
+git checkout -b main
+git add .
+git commit -m "Initialize"
+git add *
+git status
+git add day_1
+git add day_2
+git status
+git add ./day_1/
+git status
+git add day_1/
+cd day_1/
+git status
+cd ..
+cd day_1/
+git add .
+git status
+cd ../day_2/
+git add .
+cd ..
+git status
+cd day_2
+git status
+git commit -m "Initialize"
+git push --set-upstream origin  main
+cd ..
+mv advent_of_code/ fred
+git clone https://github.com/Ichi-Miike/advent_of_code_2024.git
+ls -l
+cd advent_of_code_2024/
+git status
+mv ../fred/* .
+ls -l
+git status
+git add .
+ls -l
+git status
+git add day_1
+git add day_1 --force
+git add day_1 -force
+rm .git -rf
+cd ../fred
+ls -l
+mv ../advent_of_code_2024/day_* .
+ls -l
+ls -la
+rm -rf .git/
+ls -la
+cd ../advent_of_code_2024/
+git remote remove origin
+git remote add origin https://github.com/Ichi-Miike/advent_of_code_2024.git
+git init
+git remote add origin https://github.com/Ichi-Miike/advent_of_code_2024.git
+cp ../fred/day_* .
+cp ../fred/day_1/ .
+cp ../fred/day_*/ . --recursive
+ls -l
+git add day_1
+cd day1
+cd day_1
+ls -la
+rm -rf .git .gitignore
+ls -la
+cd ..
+cd day_2
+ls -la
+rm -rf .git .gitignore
+cd ..
+git add .
+git status
+cd day_1
+git restore target --staged
+cd ..
+git restore day_1/target --staged
+git restore day_1/target* --staged
+git restore --staged
+ls -l
+git branch
+git branch -m main master
+git branch
+cd ..
+rm -rf advent_of_code_2024/
+clear
+cd fred/
+ls -l
+cd day_1/
+ls -la
+rm -rf .git .gitignore
+cd ../day_2/
+rm -rf .git .gitignore
+cd ../
+cd ..
+ls -l
+git clone https://github.com/Ichi-Miike/advent_of_code_2024.git
+git checkout main
+git checkout -b main
+cd advent_of_code_2024/
+git branch
+nvim .gitignore
+cp ../fred/day_*/ . --recursive
+ls -l
+git add .
+git status
+git commit -m "Initialize"
+git push 
+cd day_2
+cargo run
+clear
+cargo run
+cd ..
+cargo new day_3
+cd day_3
+nvim input.txt
+cargo run
+clear
+cargo run
+cargo check
+cargo run
+cargo add regex
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo check
+cargo run
+clear
+cargo run
+cargo check
+cargo run
+cargo run RUST_BACKTRACE=1
+cargo run
+run check
+cargo check
+cargo run
+nvim input.txt
+cargo run
+cargo check
+clear
+cargo check
+cargo run
+clear
+cargo run
+git status
+cd ..
+git status
+git add .
+got commit -m "Finished Day_2 & Day_3"
+git commit -m "Finished Day_2 & Day_3"
+git push
+clear
+ls -l
+cargo new day_4
+cd day_4
+cargo run
+cargo check
+cargo run
+cargo install regex
+cargo install Regex
+cargo add Regex
+clear
+cargo run
+cargo check
+cargo run
+cargo check
+clear
+cargo check
+cargo run
+cargo add colored
+cd l
+cd ..
+cargo new day_5
+cd day_5
+cargo check
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo add colored
+cargo run
+clear
+cargo run
+clear
+cargo run
+cargo check
+clear
+cargo check
+clear
+cargo check
+lcear
+clear
+cargo check
+cargo run
+cargo check
+clear
+cargo check
+cargo run
+cargo check
+clear
+cargo check
+clear
+cargo check
+cargo run
+clear
+cargo check
+clear
+cargo check
+cargo run
+clear
+cargo check
+cargo run
+clear
+cd ..
+git stas
+git staus
+git status
+git add .
+git status
+git commit -m "Added and finished Day 5"
+git push
+cargo new day_6
+clear
+cd ..
+cd advent_of_code_2024/day_6/
+cargo run
+brew install ghostty
+exit
+ls -l
+cd .config/ghostty/
+ls -l
+nvim config
+exit
+nvim .config/ghostty/config
+exit
+cd source/rust/rgrep/
+cd target/debug/
+ls -l
+./rgrep -h
+brew update all
+exit
+iNectarines,    Kiwis,    Tomatoes,     Baking Potatoes,    4Yoghurt,     Ready meals Chicken Casserole,Beef Casserole,    Milk   ,,Butter,    Bread,Ginger Biscuits,    Kit Kats,     Kit Kat Chunky,    2Presse,     Ibulieve,    Kitchen Waste Bags,    lg pack AABatteries lg pack AAA BatteriesZebra Pens
+nvim shopping.txt
+cd source/rust/advent_of_code_2024/day_7/
+ls -l
+cargo run 
+clear
+cargo check
+clear
+cargo check
+cargo run
+cd source/rust/prime_sieve/
+l s-l
+ls -l
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+clear
+cargo run
+cd ..
+ls -l
+mkdir advent_of code
+ls -l
+rm -rf code/
+rm -rf fred
+mv advent_of advent_of_code
+mv advent_of_code_2024/ advent_of_code/
+ls -l
+cd advent_of_code/
+ls -l
+mv advent_of_code_2024/ 2024/
+ls -l
+mkdir 2015
+ls -l
+cd 2015
+cargo new day_1
+cd day_1/
+cd ../..
+cd 2024/day_1
+cd src/
+open main.rs
+cd ../../day_6
+open src/main.rs
+clear
+open src/main.rs
+cd ../../..
+cd advent_of_code/2015/day_1/
+cargo check
+cargo run
+cargo check
+cargo run
+cargo check
+exit
+cd source/rust/advent_of_code/2015/
+cd day_1/
+caro run
+cargo run
+cd ..
+cargo new day_2
+cd dy_2
+cd day_2
+nvim input.txt
+nvim test.txt
+ls -l
+clkear
+clear
+cargo run
+ls -l
+clear
+cargo run
+cargo check
+clear
+cd ..
+cargo new day_3
+cd day_3
+cargo run
+cargo check
+cargo run
+cd ..
+cargo new day_4
+cd day_4
+cargo run
+cargo add md5
+cargo run
+clear
+cargo run
+cd ..
+cargo new day_5
+cd day_5
+cargo run
+cargo test
+cargo run
+cargo test
+cargo run
+cargo test
+cd ~/source/repos/
+ls -l
+git clone https://tharsternltd@dev.azure.com/tharsternltd/Primo/_git/TIM2_Plugin_CourierIntegration
+git clone https://mat.smith@dev.azure.com/tharsternltd/Primo/_git/TIM2_Plugin_CourierIntegration
+ls -l
+cd TIM2_Plugin_CourierIntegration/
+ls -l
+cd Tharstern.Plugin2.CI.Courier.FedEx/
+nvim .
+rider
+cargo test
+cd ~/source/rust/advent_of_code/2015/
+cd day_5
+cargo test
+clear
+cargo test
+cargo run
+\clear
+clear
+cargo test
+cargo run
+cd ..
+cargo new day_6
+cd day_6
+cargo run
+clear
+cargo test
+clear
+cargo test
+code .
+cargo test
+clear
+cargo test
+clear
+cargo test
+cargo run
+clear
+cargo check
+cargo test
+cargo run
+cargo test
+cargo run
+cargo test
+clear
+cargo run
+cargo check
+cargo test
+cargo run
+cd ..
+cargo new day_7
+cd day_6
+cargo test
+cd ..
+cd day_7/
+cargo run
+clear
+cargo run
+clear
+cargo test
+clear
+cargo run
+cargo test
+cargo run
+cd ,,
+cd ..
+cargo new day_8
+cd day_8
+cp ../day_7/src/utils.rs .
+cargo check
+cargo run
+nvim tmp.txt
+nvim tmp.ps1
+nvim tmp.py
+exit
+pws
+cd source/rust/thar_llama/
+cargo run
+cargo check
+clear
+cargo run
+ollama --version
+exit
+ollama
+exit
+ollama list
+exit
+ollama list
+zsh
+lsof
+cd ~
+ls -la
+cear
+clear
+ls -la
+cd .ollama/
+ls -l
+cd logs/
+ls -l
+cat server.log
+open server.log
+launchctl
+launchctl setenv OLLAMA_HOST "0.0.0.0"
+ls -l
+ollama list
+cd ..
+ls -l
+ls -la
+ollama run llama3.2
+cd ..
+cd /
+find ollama / 
+find / name='ollama' 
+ls -l
+cd etc
+ls -l
+cd ..
+ls -~
+cd ~
+ls -l
+ls -la
+cd bin
+ls -l
+cd ..
+cd /usr
+ls -l
+cd share
+ls -l
+cd ..
+cd bin/
+ls -l
+cd ..
+cd /usr
+ls -l
+cd 
+cd ~
+ls -l
+cd /
+ls -l
+cd opt/
+ls -l
+cd ..
+cd Applications/
+cd Ollama.app/
+ls -l
+cd Contents/
+ls -l
+cd MacOS/
+ls -l
+ollama list
+.ollama list
+ls -l
+./Ollama list
+cd /Users/matsmith/
+Ollama serve
+clear
+cd /Applications/Ollama.app/
+ls -l
+cd Contents/
+ls -l
+cd MacOS/
+ls -l
+Ollama list
+./Ollama list
+ollama list
+cd /Users/matsmith/
+clear
+exit
+cd Downloads/
+ls -l
+rm Dead.Set-S01E01-Outbreak.Bluray-1080p.nzb
+ollama list
+which ollama
+cd /usr/local/bin/
+ls -l
+cd ollama
+./ollama list
+%PATH%
+echo $env.PATH
+export PATH=".:$PATH:/usr/local/bin"
+cd ~/.config/
+ls -l
+cd /
+ls -l
+cd Library/
+ls -l
+cd ..
+ls -l
+cd gi
+cd home
+ls -l
+cd ..
+cd ~
+ls -la
+c d Library/ls 0-k
+cd Library/
+ls -l
+cd ..
+ls -l
+cd /
+ls -l
+cd opt/
+ls -l
+cd /
+config nu
+$env.config
+$nu.default-config-dir
+cd `~/Library/Application Support/nushell/`
+ls -l
+nvim env.nu
+exit
+pwd
+ollama list
+cd source/rust/thar_llama/
+cargo run
+ollama serve
+exit
+ollama run llama3.2
+exit
+ollama serve
+ollama run deepseek-r2
+cd source/rust/thar_llama/
+acrgo add ollama_rs
+cargo add ollama_rs
+cargo add olamana_r
+cargo add olamana-rs
+curl http://localhost:11434/api/chat -d '{<\n>    "model": "llama2",<\n>    "messages": [<\n>        { "role": "user", "content": "Hello, AI!" }<\n>    ]<\n>}'<\n>
+curl http://localhost:11434/api/chat -d '{<\n>    "model": "llama3.2",<\n>    "messages": [<\n>        { "role": "user", "content": "Hello, AI!" }<\n>    ]<\n>}'<\n>
+pwd
+cd source/rust/thar_llama/
+cargo add reqwest 
+cargo add tokio
+exit
+exit
+ollama run llama3.2
+exit
+cd source/
+cd repos/
+ls -l
+git clone https://mat.smith@dev.azure.com/tharsternltd/Primo/_git/email-client-service
+git clone https://tharsternltd@dev.azure.com/tharsternltd/Primo/_git/email-client-service
+ls -l
+cd email-client-service/
+ls -l
+rider EmailClient.sln
+xit
+ssh ichimiike@lv-426 -p 20
+exit
+nu
+ls -l
+clear
+exit
+ls -l
+cd .config/
+ls -l
+cd ..
+ls -la
+ssh ichimiike@lv-426 -p 20
+exit
+ls-l
+ls -l
+ssh ichimiike@lv-426 -p 20
+exit
+cd source/repos/
+ls -l
+git clone https://tharsternltd@dev.azure.com/tharsternltd/Primo/_git/email-client-service
+cd email-client-service/
+git pull
+cd ..
+git clone https://github.com/eps-print/Tharstern-Email-Service.git
+cod
+code
+mkdir Tharstern-Email-Service
+cd Tharstern-Email-Service/
+git remote add origin https://github.com/eps-print/Tharstern-Email-Service.git
+git init
+git remote add origin https://github.com/eps-print/Tharstern-Email-Service.git
+man cp
+cp -R ../email-client-service/* .
+git status
+ls -l
+git status
+git add .
+git commit -m "Initialize repo"
+git push
+git push --set-upstream origin main
+rm -rf *
+git init
+git remote add origin https://github.com/eps-print/Tharstern-Email-Service.git
+git pull
+git pull origin main
+cd ..
+rm -rf Tharstern-Email-Service/
+git clone https://github.com/eps-print/Tharstern-Email-Service.git
+cd Tharstern-Email-Service/
+git checkout -b initial_commit
+git status
+ls -l
+cp -r ../email-client-service/* .
+ls -l
+git status
+git add .
+git branch
+git checkout initial_commit
+git branch
+git add .
+git commit -m "Initialize repo"
+git push --set-upstream origin main
+git status
+git checkout main
+git branch -r initial_commit
+git log
+cd .git/
+ls -l
+open config
+cd  ../..
+rm -rf Tharstern-Email-Service/
+git clone https://github.com/eps-print/Tharstern-Email-Service.git
+cd Tharstern-Email-Service/
+ls -l ../email-client-service/
+cp -r ../email-client-service/EmailClient.sln .
+cp -r ../email-client-service/email.Server/ .
+cp -r ../email-client-service/email.client/ .
+cp -r ../email-client-service/SolutionInfo.cs
+cp -r ../email-client-service/SolutionInfo.cs .
+cp -r ../email-client-service/README.md .
+ls -l ../email-client-service/
+cp -r ../email-client-service/version.ps1 .
+ls -l
+cd email.client/
+ls -l
+rm -rf node_modules/
+cd ..
+open .git/config
+git add .
+ls -l 
+git status
+git checkout -b initial_commit
+git commit -m "Initialize repo"
+git branch
+git push --set-upstream origin initial_commit
+exit
+ssh ichimiike@lv-426 -p 20
+ls -l
+which nu
+clear
+cd ~/.config/
+ls -l
+cd ..
+ls -l
+ls -la
+cd opt/
+which nu
+cd /opt/homebrew/bin/
+$env.config
+cd ~/.config/
+ls -l
+cd ..
+cd Library/
+ls -l
+cd `Application Support/`
+ls -l
+cd nushell/
+ls -l
+brew install starship
+ls -l
+cd ..
+ls -l
+cd ~/.config/
+ls -l
+which starship
+cd `~/Library/Application Support/`
+ls -l
+mkdir starship
+cd starship/
+nvim config.toml
+cd ../nushell/
+nvim config.nu
+source
+exit
+exot
+exit
+exit
+ls-l
+ls -l
+exit
+cd `Library/Application Support/nushell/`
+ls -l
+nvim config.nu
+source
+cd ../starship/
+ls -l
+open config.toml
+exit
+cd source/repos/
+ls -l
+cd ..
+ls -l
+cd repos
+ls -l
+git clone https://github.com/Ichi-Miike/dotfiles.git
+ls -l
+cd dotfiles/
+git checkout add_nushell_and_starship
+git checkout -b add_nushell_and_starship
+ls -l
+mkdir starship
+mkdir nushell
+cd starship/
+cp `~/Library/Application Support/starship/*` .
+ls -l
+cd ,,
+..
+cd nushell/
+ls -l
