@@ -1,12 +1,29 @@
---<LeftMouse>-- Pull in the wezterm API
+-- Pull in the wezterm API
 local wezterm = require 'wezterm'
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+-- Set the starting position
+local mux = wezterm.mux
+wezterm.on('gui-startup', function(cmd)
+  local tab, pane, window = mux.spawn_window(cmd or {
+    position = { x = 200, y = 100 },  -- starting position in pixels
+  })
+end)
+
+
 -- This is where you actually apply your config choices
-config.initial_rows = 50
+config.initial_rows = 45
 config.initial_cols = 180
+
+--Set the font / theme 
+config.font = wezterm.font 'JetBrains Mono'
+config.font_size = 14
+config.color_scheme = 'AdventureTime'
+
+config.default_prog = { "C:/Program Files/nu/bin/nu.exe" }
+
 
 -- Keybindings
 config.leader = { key = "q", mods = "ALT", timeout_milliseconds = 2000 }
